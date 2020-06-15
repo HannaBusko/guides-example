@@ -1,0 +1,55 @@
+
+.block-wrapper {
+    padding: 2.5vw 0;
+    margin: 0 auto;
+
+    @include for-tablet {
+        max-width: 97%;
+    }
+    @include for-desktop {
+        max-width: 85%;
+    }
+    @include for-desktop-up {
+        max-width: 70%;
+    }
+    text-align: justify;
+}
+
+.block-grid{
+    margin: 0 auto;
+    padding-top: 2%;
+    display: grid;
+    text-align: center;
+    & div {
+        justify-self: center;
+        line-height: 1.5;
+        @include font($size: 1.4rem, $family: $fontRoboto, $weight: 400);
+    }
+    h4{
+        padding-top: 5px;
+    }
+}
+
+.about-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @include for-phone{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.scroll-to-top{
+    opacity: 0.8;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    border-radius: 5px;
+    border: none;
+    
+    &:hover {
+      opacity: 1;
+    }
+
+    & .ui.button{
+        min-height: 3em;
+    }
+  }

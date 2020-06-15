@@ -1,0 +1,56 @@
+h2,
+h3,
+h4 {
+  line-height: 100%;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  @include font($size: 3.3rem, $family: $fontComfortaa, $weight: 700);
+}
+
+h3 {
+  @include font($size: 2.6rem, $family: $fontComfortaa, $weight: 700);
+  @include for-phone {
+    @include font($size: 1.7rem, $family: $fontComfortaa, $weight: 700);
+  }
+  @include for-small-phone {
+    @include font($size: 1.4rem, $family: $fontComfortaa, $weight: 700);
+  }
+}
+
+h4 {
+  @include font($size: 1.9rem, $family: $fontComfortaa, $weight: 700);
+  margin-bottom: 5px;
+}
+
+.main-transition-enter {
+  opacity: 0.01;
+  transform: translateY(10px);
+}
+
+.main-transition-enter.main-transition-enter-active {
+  opacity: 1;
+  transform: none;
+
+  transition-property: opacity, transform;
+  transition-timing-function: ease-out;
+  transition-duration: 300ms;
+  transition-delay: 500ms;
+}
+
+.main-transition-exit {
+  opacity: 1;
+  transform: none;
+}
+
+.main-transition-exit.main-transition-exit-active {
+  opacity: 0.01;
+  transform: translateY(10px);
+
+  transition-property: opacity, transform;
+  transition-timing-function: ease-in;
+  transition-duration: 200ms;
+}
