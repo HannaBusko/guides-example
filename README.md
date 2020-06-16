@@ -1,1 +1,1 @@
-It will be the site for "Белорусская ассоциация экскурсоводов и гидов-переводчиков"
+https://hannabusko.github.io/guides-example/
