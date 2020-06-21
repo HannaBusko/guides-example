@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/guides-example/static/css/main.309df991.chunk.css",
-    "main.js": "/guides-example/static/js/main.7fc85fca.chunk.js",
-    "main.js.map": "/guides-example/static/js/main.7fc85fca.chunk.js.map",
+    "main.css": "/guides-example/static/css/main.ab76b114.chunk.css",
+    "main.js": "/guides-example/static/js/main.d1b9b59d.chunk.js",
+    "main.js.map": "/guides-example/static/js/main.d1b9b59d.chunk.js.map",
     "runtime-main.js": "/guides-example/static/js/runtime-main.f82dc076.js",
     "runtime-main.js.map": "/guides-example/static/js/runtime-main.f82dc076.js.map",
-    "static/js/2.de89db54.chunk.js": "/guides-example/static/js/2.de89db54.chunk.js",
-    "static/js/2.de89db54.chunk.js.map": "/guides-example/static/js/2.de89db54.chunk.js.map",
+    "static/js/2.06d32fec.chunk.js": "/guides-example/static/js/2.06d32fec.chunk.js",
+    "static/js/2.06d32fec.chunk.js.map": "/guides-example/static/js/2.06d32fec.chunk.js.map",
     "index.html": "/guides-example/index.html",
-    "precache-manifest.5c049b4adcc95b7bfe497169f1b05c82.js": "/guides-example/precache-manifest.5c049b4adcc95b7bfe497169f1b05c82.js",
+    "precache-manifest.26fb211545c14f41d04027724b7d7365.js": "/guides-example/precache-manifest.26fb211545c14f41d04027724b7d7365.js",
     "service-worker.js": "/guides-example/service-worker.js",
-    "static/css/main.309df991.chunk.css.map": "/guides-example/static/css/main.309df991.chunk.css.map",
-    "static/js/2.de89db54.chunk.js.LICENSE.txt": "/guides-example/static/js/2.de89db54.chunk.js.LICENSE.txt",
+    "static/css/main.ab76b114.chunk.css.map": "/guides-example/static/css/main.ab76b114.chunk.css.map",
+    "static/js/2.06d32fec.chunk.js.LICENSE.txt": "/guides-example/static/js/2.06d32fec.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/guides-example/static/media/1.a84d538c.jpg",
     "static/media/2.jpg": "/guides-example/static/media/2.27a4e7d3.jpg",
     "static/media/3.jpg": "/guides-example/static/media/3.254dbe46.jpg",
@@ -20,10 +20,13 @@
     "static/media/6.jpg": "/guides-example/static/media/6.ac57dc98.jpg",
     "static/media/7.jpg": "/guides-example/static/media/7.f279cb22.jpg",
     "static/media/8.jpg": "/guides-example/static/media/8.03eafdb1.jpg",
+    "static/media/about.group.jpg": "/guides-example/static/media/about.group.700b216c.jpg",
     "static/media/architecture.jpg": "/guides-example/static/media/architecture.6d18cff9.jpg",
     "static/media/index.css": "/guides-example/static/media/slick.f97e3bbf.svg",
+    "static/media/history.jpg": "/guides-example/static/media/history.8bf74b09.jpg",
     "static/media/history.png": "/guides-example/static/media/history.afe068d1.png",
     "static/media/industry.jpg": "/guides-example/static/media/industry.0a8fdc27.jpg",
+    "static/media/join.jpg": "/guides-example/static/media/join.3856004e.jpg",
     "static/media/language2.png": "/guides-example/static/media/language2.28bce845.png",
     "static/media/logo.svg": "/guides-example/static/media/logo.c5e6f76d.svg",
     "static/media/nature.png": "/guides-example/static/media/nature.c424cd53.png",
@@ -38,12 +41,15 @@
     "static/media/person7.jpg": "/guides-example/static/media/person7.c8c9a5d6.jpg",
     "static/media/person8.jpg": "/guides-example/static/media/person8.ca3fa625.jpg",
     "static/media/professional.png": "/guides-example/static/media/professional.c26d4a2c.png",
-    "static/media/religy.jpg": "/guides-example/static/media/religy.4d213961.jpg"
+    "static/media/religy.jpg": "/guides-example/static/media/religy.4d213961.jpg",
+    "static/media/rules.jpg": "/guides-example/static/media/rules.2ff71d17.jpg",
+    "static/media/statement.doc": "/guides-example/static/media/statement.7f37f506.doc",
+    "static/media/statement.pdf": "/guides-example/static/media/statement.a919abb6.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.f82dc076.js",
-    "static/js/2.de89db54.chunk.js",
-    "static/css/main.309df991.chunk.css",
-    "static/js/main.7fc85fca.chunk.js"
+    "static/js/2.06d32fec.chunk.js",
+    "static/css/main.ab76b114.chunk.css",
+    "static/js/main.d1b9b59d.chunk.js"
   ]
 }
