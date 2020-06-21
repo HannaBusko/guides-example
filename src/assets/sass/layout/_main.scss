@@ -1,3 +1,4 @@
+h1,
 h2,
 h3,
 h4 {
@@ -7,6 +8,9 @@ h4 {
   margin-bottom: 20px;
 }
 
+h1{
+  @include font($size: 6.5rem, $family: $fontMonserrat, $weight: 900);
+}
 h2 {
   @include font($size: 3.3rem, $family: $fontComfortaa, $weight: 700);
 }

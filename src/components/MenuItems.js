@@ -18,17 +18,20 @@ function MenuItems() {
                 {t('main_menu')}
             </Menu.Item>
 
-            <Dropdown item text= {t('menu_about')}>
+            <Dropdown item text={t('menu_about')}>
                 <Dropdown.Menu direction='left'>
-                    <Dropdown.Item text= {t('menu_history')} as={Link} to='/history' value="history"
+                    <Dropdown.Item text={t('menu_history')} as={Link} to='/history' value="history"
                         active={activeItem === '/history' || activeItem === 'history'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
                     <Dropdown.Item text={t('menu_rules')} as={Link} to='/rules' value="rules"
                         active={activeItem === '/rules' || activeItem === 'rules'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
+                    <Dropdown.Item text={t('menu_how_join')} as={Link} to='/join' value="join"
+                        active={activeItem === '/join' || activeItem === 'join'}
+                        onClick={e => setActiveItem(e.target.value)} />
                     <Dropdown.Item text={t('menu_team')} as={Link} to='/team' value="team"
                         active={activeItem === '/team' || activeItem === 'team'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
                 </Dropdown.Menu>
             </Dropdown>
 
@@ -36,10 +39,10 @@ function MenuItems() {
                 <Dropdown.Menu direction='left'>
                     <Dropdown.Item text={t('menu_guide-main')} as={Link} to='/guide-main' value="guide-main"
                         active={activeItem === '/guide-main' || activeItem === 'guide-main'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
                     <Dropdown.Item text={t('menu_guide-search')} as={Link} to='/guide-search' value="guide-search"
                         active={activeItem === '/guide-search' || activeItem === 'guide-search'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
                 </Dropdown.Menu>
             </Dropdown>
 
@@ -47,13 +50,13 @@ function MenuItems() {
                 <Dropdown.Menu direction='left'>
                     <Dropdown.Item text={t('menu_certification')} as={Link} to='/certification' value="certification"
                         active={activeItem === '/certification' || activeItem === 'certification'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
                     <Dropdown.Item text={t('menu_professional-development')} as={Link} to='/professional-development' value="professional-development"
                         active={activeItem === '/professional-development' || activeItem === 'professional-development'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
                     <Dropdown.Item text={t('menu_seminars')} as={Link} to='/seminars' value="seminars"
                         active={activeItem === '/seminars' || activeItem === 'seminars'}
-                        onClick={e => setActiveItem(e.target.value)}/>
+                        onClick={e => setActiveItem(e.target.value)} />
                 </Dropdown.Menu>
             </Dropdown>
 
@@ -63,7 +66,7 @@ function MenuItems() {
                 name='news'
                 active={activeItem === '/news' || activeItem === 'news'}
                 onClick={e => setActiveItem(e.target.name)}>
-               {t('menu_news')}</Menu.Item>
+                {t('menu_news')}</Menu.Item>
             <Menu.Item
                 as={Link} to='/contact'
                 name='contact'

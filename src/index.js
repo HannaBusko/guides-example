@@ -10,6 +10,8 @@ import HomePage from '../src/pages/index';
 import HeaderDividing from './components/Header';
 import FooterBlock from './components/Footer';
 
+import {HistoryBlock, RulesBlock,JoinBlock} from '../src/pages/about';
+
 //import Social from './components/Social';
 import ScrollToTopBtn from "./components/ScrollToTop";
 
@@ -25,6 +27,9 @@ const pageTransitionsDuration = {
 const RoutesWrapper = ({ location }) => (
   <Switch location={location}>
     <Route exact path='/' render={() => <HomePage />} />
+    <Route path='/history' render={() => <HistoryBlock />} />
+    <Route path='/rules' render={() => <RulesBlock />} />
+    <Route path='/join' render={() => <JoinBlock />} />
     <Redirect to='/' />
   </Switch>
 );
