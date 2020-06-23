@@ -26,12 +26,13 @@ function MenuItems() {
                     <Dropdown.Item text={t('menu_rules')} as={Link} to='/rules' value="rules"
                         active={activeItem === '/rules' || activeItem === 'rules'}
                         onClick={e => setActiveItem(e.target.value)} />
+                    <Dropdown.Item text={t('menu_board')} as={Link} to='/board' value="board"
+                        active={activeItem === '/board' || activeItem === 'board'}
+                        onClick={e => setActiveItem(e.target.value)} />
                     <Dropdown.Item text={t('menu_how_join')} as={Link} to='/join' value="join"
                         active={activeItem === '/join' || activeItem === 'join'}
                         onClick={e => setActiveItem(e.target.value)} />
-                    <Dropdown.Item text={t('menu_team')} as={Link} to='/team' value="team"
-                        active={activeItem === '/team' || activeItem === 'team'}
-                        onClick={e => setActiveItem(e.target.value)} />
+
                 </Dropdown.Menu>
             </Dropdown>
 

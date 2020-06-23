@@ -36,10 +36,7 @@
     img {
         object-fit: cover;
         width: 100%;
-        height: calc(100vh * 0.4);
-        @include for-desktop-up {
-            height: calc(100vh * 0.35);
-        }
+        height: 100%;
     }
     .content-text {
         padding: 20px;
@@ -47,11 +44,14 @@
         p {
             text-indent: 2em;
         }
-        li{
-            list-style: inside '\1F4CC';
+        li {
+            list-style: inside "\1F4CC";
             text-indent: 4em;
         }
     }
+}
+
+.about-wrapper {
     .ui.segment {
         align-self: center;
         @include for-phone {
@@ -59,10 +59,10 @@
         }
     }
 }
-
-.button-group{
+.button-group {
     text-align: center;
-    .ui.massive.button{
+    padding-bottom: 20px;
+    .ui.massive.button {
         @include for-phone {
             font-size: 1.2rem;
         }

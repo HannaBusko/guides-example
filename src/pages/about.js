@@ -52,6 +52,7 @@ const RulesBlock = () => {
             <ul>
                 <p>{t('about_rules3')}</p>
                 <li>{t('about_rules3_1')} </li>
+                <li>{t('about_rules3_2')} </li>
             </ul>
             <ul>
                 <p>{t('about_rules4')}</p>
@@ -94,15 +95,15 @@ const JoinBlock = () => {
                 <Button.Group size='massive' >
                     <Button animated='fade' color='blue' size='massive' as='a'
                         href={statement_doc}>
-                        <Button.Content visible>Заявление на вступление(.doc)</Button.Content>
-                        <Button.Content hidden> <Icon name='down arrow' />Скачать</Button.Content>
+                        <Button.Content visible>{t('application_title')}(.doc)</Button.Content>
+                        <Button.Content hidden> <Icon name='down arrow' />{t('application_download')}</Button.Content>
                     </Button>
                     <Button.Or />
                     <Button animated='fade' color='teal' size='massive' as='a'
                         href={statement_pdf}
                         target="_blank">
-                        <Button.Content visible>Заявление на вступление(.pdf)</Button.Content>
-                        <Button.Content hidden> <Icon name='down arrow' />Скачать</Button.Content>
+                        <Button.Content visible>{t('application_title')}(.pdf)</Button.Content>
+                        <Button.Content hidden> <Icon name='down arrow' />{t('application_download')}</Button.Content>
                     </Button>
                 </Button.Group>
             </div>

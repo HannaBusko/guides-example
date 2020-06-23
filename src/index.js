@@ -10,7 +10,8 @@ import HomePage from '../src/pages/index';
 import HeaderDividing from './components/Header';
 import FooterBlock from './components/Footer';
 
-import {HistoryBlock, RulesBlock,JoinBlock} from '../src/pages/about';
+import { HistoryBlock, RulesBlock, JoinBlock } from '../src/pages/about';
+import BoardBlock from './components/Board';
 
 //import Social from './components/Social';
 import ScrollToTopBtn from "./components/ScrollToTop";
@@ -30,6 +31,7 @@ const RoutesWrapper = ({ location }) => (
     <Route path='/history' render={() => <HistoryBlock />} />
     <Route path='/rules' render={() => <RulesBlock />} />
     <Route path='/join' render={() => <JoinBlock />} />
+    <Route path='/board' render={() => <BoardBlock />} />
     <Redirect to='/' />
   </Switch>
 );
