@@ -7,10 +7,12 @@
 @import 'base/reset';
 @import 'base/page';
 
+@import 'layout/preloader';
 @import 'layout/main';
 @import 'layout/header';
 @import 'layout/slider';
 @import 'layout/container';
+@import 'layout/scroll';
 @import 'layout/routes';
 @import 'layout/reasons';
 @import 'layout/text-page';

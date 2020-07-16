@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Tab, Menu, Card, Image } from 'semantic-ui-react';
 
 import { useTranslation } from "react-i18next";
@@ -24,7 +24,7 @@ const boss = {
   src: require('../assets/images/board/boss.jpg'),
   name: (<CardTitle name='about_team_boss' />),
   text: (<CardText text='about_team_boss_text' />),
-  phone: '+37529769752',
+  phone: '+375297697529',
   classTitle: 'board-card board-single ',
   color: 'red'
 };
@@ -128,6 +128,7 @@ const comission = [
 
 const BoardCard = ({ data }) => (
   <Card centered color={data.color} className={data.classTitle}>
+
     <Image src={data.src} wrapped ui={false} />
     <Card.Content>
       <Card.Header>{data.name}</Card.Header>
@@ -143,9 +144,10 @@ const BoardCard = ({ data }) => (
       <p>{data.phone}</p>
     </Card.Content>
     }
-
   </Card>
 )
+
+
 const panes = [
   {
     menuItem: (<Menu.Item key='boss'>
@@ -167,12 +169,12 @@ const panes = [
     menuItem: (<Menu.Item key='comission'>
       <MenuTitle title='about_team_comission_title' />
     </Menu.Item>),
-     render: () =>
-     <Tab.Pane>
-       <Card.Group stackable itemsPerRow={3}>
-         {comission.map((val, i) => (<BoardCard data={val} key={i} />))}
-       </Card.Group>
-     </Tab.Pane>
+    render: () =>
+      <Tab.Pane>
+        <Card.Group stackable itemsPerRow={3}>
+          {comission.map((val, i) => (<BoardCard data={val} key={i} />))}
+        </Card.Group>
+      </Tab.Pane>
   },
   {
     menuItem: (<Menu.Item key='secretary'>
@@ -184,7 +186,7 @@ const panes = [
 const BoardBlock = () => {
   const { t } = useTranslation();
   return (
-    <Fragment>
+    <div>
       <div className="content-main-image"
         style={{
           background: `url(${img_about_main})`
@@ -197,6 +199,7 @@ const BoardBlock = () => {
         <h2>{t('menu_board')}</h2>
 
         <Tab
+          className="boardTab"
           menu={{ fluid: true, vertical: true }}
           grid={{ paneWidth: 11, tabWidth: 5 }}
           defaultActiveIndex={1}
@@ -205,7 +208,7 @@ const BoardBlock = () => {
         />
       </div>
 
-    </Fragment>
+    </div>
   )
 };
 

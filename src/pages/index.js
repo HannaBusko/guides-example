@@ -8,11 +8,7 @@ import ReasonsBlock from '../components/Reasons';
 const img_set = [ 
      {
         url: require('../assets/images/slider/2.jpg'),
-    },
-    {
-        url: require('../assets/images/slider/1.jpg'),
-    },
-  
+    },  
     {
         url: require('../assets/images/slider/3.jpg'),
     },

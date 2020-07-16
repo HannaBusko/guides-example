@@ -10,9 +10,11 @@ class SimpleSlider extends Component {
     const settings = {
       dots: true,
       infinite: true,
+      onLazyLoad: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      initialSlide: 4,
       autoplay: true,
       pauseOnHover: true,
       autoplaySpeed: 6000
@@ -23,7 +25,7 @@ class SimpleSlider extends Component {
         <Slider {...settings}>
           {images ? images.map((val, i) => (
             <div key={i}>
-              <div 
+              <div
                 className="carrousel_image"
                 style={{
                   background: `url(${val.url})`

@@ -51,7 +51,10 @@
             flex-basis: 100%;
             justify-content: space-around;
         }
-
+        
+        @include for-phone{
+            display: none;
+        }
         flex-wrap: wrap;
         .list,
         .list > a.item,
@@ -67,12 +70,6 @@
             flex-wrap: wrap;
             & .list > .item {
                 padding-left: 0px !important;
-                @include for-phone{
-                   padding-bottom: 10px;
-                }
-            }
-            @include for-phone{
-                justify-content: center;
             }
         }
     }

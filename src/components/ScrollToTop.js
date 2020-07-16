@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Button, Icon } from 'semantic-ui-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretSquareUp } from '@fortawesome/free-regular-svg-icons';
 
 export default class ScrollToTop extends Component {
   constructor(props) {
@@ -47,10 +48,8 @@ export default class ScrollToTop extends Component {
     return (
       <div className="scroll-to-top">
         {is_visible && (
-          <div onClick={() => this.scrollToTop()}>
-            <Button compact icon labelPosition='right' size="huge">
-              Up <Icon name='arrow up' />
-            </Button>
+          <div onClick={() => this.scrollToTop()} className="button button-scroll">
+            <FontAwesomeIcon icon={faCaretSquareUp} size="7x"/>
           </div>
         )}
       </div>

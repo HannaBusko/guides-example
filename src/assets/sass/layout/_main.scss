@@ -32,13 +32,10 @@ h4 {
 
 .main-transition-enter {
   opacity: 0.01;
-  transform: translateY(10px);
 }
 
 .main-transition-enter.main-transition-enter-active {
   opacity: 1;
-  transform: none;
-
   transition-property: opacity, transform;
   transition-timing-function: ease-out;
   transition-duration: 300ms;
@@ -47,13 +44,10 @@ h4 {
 
 .main-transition-exit {
   opacity: 1;
-  transform: none;
 }
 
 .main-transition-exit.main-transition-exit-active {
   opacity: 0.01;
-  transform: translateY(10px);
-
   transition-property: opacity, transform;
   transition-timing-function: ease-in;
   transition-duration: 200ms;

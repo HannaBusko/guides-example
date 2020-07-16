@@ -36,20 +36,3 @@
         grid-template-columns: 1fr 1fr;
     }
 }
-
-.scroll-to-top{
-    opacity: 0.8;
-    position: fixed;
-    bottom: 60px;
-    right: 10px;
-    border-radius: 5px;
-    border: none;
-    
-    &:hover {
-      opacity: 1;
-    }
-
-    & .ui.button{
-        min-height: 3em;
-    }
-  }

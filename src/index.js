@@ -6,36 +6,45 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import './index.css';
 
-import HomePage from '../src/pages/index';
 import HeaderDividing from './components/Header';
 import FooterBlock from './components/Footer';
 
+import HomePage from '../src/pages/index';
 import { HistoryBlock, RulesBlock, JoinBlock } from '../src/pages/about';
 import BoardBlock from './components/Board';
+import CertificationBlock from './pages/trainings';
 
-//import Social from './components/Social';
+import Preloader from "./components/Preloader";
 import ScrollToTopBtn from "./components/ScrollToTop";
 
 import { I18nextProvider } from 'react-i18next';
 import i18n from './components/i18n';
 
 
-const pageTransitionsDuration = {
-  enter: 500,
-  exit: 300
-};
+
+//, Suspense, lazy<Suspense fallback={<div>Загрузка...</div>}>  </Suspense >
+//const HomePage = lazy(() => import('../src/pages/index'));
+//const { HistoryBlock, RulesBlock, JoinBlock } = lazy(() => import('../src/pages/about'));
 
 const RoutesWrapper = ({ location }) => (
-  <Switch location={location}>
-    <Route exact path='/' render={() => <HomePage />} />
-    <Route path='/history' render={() => <HistoryBlock />} />
-    <Route path='/rules' render={() => <RulesBlock />} />
-    <Route path='/join' render={() => <JoinBlock />} />
-    <Route path='/board' render={() => <BoardBlock />} />
-    <Redirect to='/' />
-  </Switch>
+  
+    <Switch location={location}>
+      <Route exact path='/' render={() => <HomePage />} />
+      <Route path='/history' render={() => <HistoryBlock />} />
+      <Route path='/rules' render={() => <RulesBlock />} />
+      <Route path='/join' render={() => <JoinBlock />} />
+      <Route path='/board' render={() => <BoardBlock />} />
+      <Route path='/seminars' render={() => <Preloader />} />
+      <Route path='/certification' render={() => <CertificationBlock />} />
+      <Redirect to='/' />
+    </Switch>
+
 );
 
+const pageTransitionsDuration = {
+  enter: 1500,
+  exit: 300
+};
 class App extends React.Component {
 
   render() {

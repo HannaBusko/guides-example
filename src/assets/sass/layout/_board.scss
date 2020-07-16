@@ -3,6 +3,11 @@
 
     max-width: 90%;
     margin: 0 auto;
+
+    @include for-phone {
+       padding: 20px 0px;
+    }
+
     h3 {
         text-align: right;
         overflow-wrap: break-word;
@@ -12,6 +17,7 @@
         }
         @include for-phone {
             @include font($size: 1.2rem, $family: $fontComfortaa, $weight: 700);
+            text-align: center;
         }
         @include for-small-phone {
             @include font($size: 1rem, $family: $fontComfortaa, $weight: 700);
@@ -35,6 +41,9 @@
         text-align: center;
         @include font($size: 1.4rem, $family: $fontRoboto, $weight: 700);
     }
+    .meta{
+        text-align: center;
+    }
 }
 
  
@@ -53,3 +62,11 @@
         }
     }
 
+.boardTab .grid{
+    @include for-phone {
+        flex-direction: column-reverse;
+        &>[class*="five wide"].column,&>[class*="eleven wide"].column {
+            width: 100% !important;
+        }
+    }
+}
