@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f58dcd39db2bb4165dc6fd86c53454c6",
+    "revision": "0cd40b6ad6dac8b6436d9fed4fafd9b1",
     "url": "/guides-example/index.html"
   },
   {
-    "revision": "a43c5a5e5787c48d7d40",
-    "url": "/guides-example/static/css/main.f8fe9f80.chunk.css"
+    "revision": "593df0368fcd0860d347",
+    "url": "/guides-example/static/css/main.18deed36.chunk.css"
   },
   {
-    "revision": "014f8dadc41ca485d68b",
-    "url": "/guides-example/static/js/2.2c5b83f5.chunk.js"
+    "revision": "c78bfec84955b4e35d0a",
+    "url": "/guides-example/static/js/2.744b9e4c.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/guides-example/static/js/2.2c5b83f5.chunk.js.LICENSE.txt"
+    "url": "/guides-example/static/js/2.744b9e4c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a43c5a5e5787c48d7d40",
-    "url": "/guides-example/static/js/main.146734cb.chunk.js"
+    "revision": "593df0368fcd0860d347",
+    "url": "/guides-example/static/js/main.d66dee8f.chunk.js"
   },
   {
     "revision": "fa1809d833ea821ae941",
     "url": "/guides-example/static/js/runtime-main.f82dc076.js"
-  },
-  {
-    "revision": "a84d538cbcdcc68acb8d9272962135c5",
-    "url": "/guides-example/static/media/1.a84d538c.jpg"
   },
   {
     "revision": "27a4e7d3a8ffb6436ac5a0cb4d018cbe",
@@ -56,12 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guides-example/static/media/8.03eafdb1.jpg"
   },
   {
-    "revision": "c55748da05257d983755145a36040a2a",
-    "url": "/guides-example/static/media/about.group.c55748da.jpg"
+    "revision": "888783293de8afb7c2c1361e874e2e1f",
+    "url": "/guides-example/static/media/about.group.88878329.jpg"
   },
   {
-    "revision": "0388cd81af33798bf59614b37e6acf4b",
-    "url": "/guides-example/static/media/architecture.0388cd81.jpg"
+    "revision": "d517e0d00f51603699dc9f8521c7d188",
+    "url": "/guides-example/static/media/act507.d517e0d0.pdf"
+  },
+  {
+    "revision": "f825088f0d9faefbc1f2e0abfde74561",
+    "url": "/guides-example/static/media/act895.f825088f.pdf"
+  },
+  {
+    "revision": "fee6e2b8ee1c9362030c67f7215d36f4",
+    "url": "/guides-example/static/media/architecture.fee6e2b8.jpg"
   },
   {
     "revision": "7b12d943e58574efb3e96b4ddf53342f",
@@ -128,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guides-example/static/media/crue2.7e43e083.jpg"
   },
   {
-    "revision": "1e27c93d5537fe244e00429a82384487",
-    "url": "/guides-example/static/media/crue3.1e27c93d.jpg"
+    "revision": "fc66adf603d09635690986adbccc073a",
+    "url": "/guides-example/static/media/crue3.fc66adf6.jpg"
   },
   {
     "revision": "1174875dc0000933a7f75f91c5f7a5a5",
@@ -148,6 +152,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guides-example/static/media/crue7.abd3e156.jpg"
   },
   {
+    "revision": "9ed09b321d5caed93727daa6ab755def",
+    "url": "/guides-example/static/media/exam.9ed09b32.jpg"
+  },
+  {
     "revision": "999225c024df42b6c78563043744ee66",
     "url": "/guides-example/static/media/history.999225c0.jpg"
   },
@@ -156,8 +164,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guides-example/static/media/history.ef1705f8.png"
   },
   {
-    "revision": "35f1e616c8a93934e78482e12b594617",
-    "url": "/guides-example/static/media/industry.35f1e616.jpg"
+    "revision": "103d5942d8234c09cfcaae1ca93bd092",
+    "url": "/guides-example/static/media/industry.103d5942.jpg"
   },
   {
     "revision": "3856004eae6b203703dff1e4eccb75d8",
@@ -232,12 +240,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guides-example/static/media/montserrat-alternates-v11-latin-regular.fa6df500.ttf"
   },
   {
-    "revision": "0a0159b547f0ee027e11e61e9c16f11e",
-    "url": "/guides-example/static/media/nature.0a0159b5.jpg"
+    "revision": "ac80221edd500173f70e1ad8c3cceadb",
+    "url": "/guides-example/static/media/nature.ac80221e.jpg"
   },
   {
     "revision": "ee8c330c750b9905a316a31bdabb6aaf",
     "url": "/guides-example/static/media/nature.ee8c330c.png"
+  },
+  {
+    "revision": "daaa108120eb40442d0308afdb6616ef",
+    "url": "/guides-example/static/media/note.daaa1081.pdf"
   },
   {
     "revision": "4c2542007c4e3422d35f4c8aeb8414b3",
@@ -280,8 +292,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/guides-example/static/media/professional.f02c463e.png"
   },
   {
-    "revision": "9b28a6008bf4f6662bc913a68d0eb1bb",
-    "url": "/guides-example/static/media/religy.9b28a600.jpg"
+    "revision": "14532ea6c29458563a178d7db2beca42",
+    "url": "/guides-example/static/media/religy.14532ea6.jpg"
   },
   {
     "revision": "8681f434273fd6a267b1a16a035c5f79",
@@ -334,5 +346,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a919abb65d2359b4c28ce6a677c7cecd",
     "url": "/guides-example/static/media/statement.a919abb6.pdf"
+  },
+  {
+    "revision": "d3816021eb68c0a9d40d8631e35aa85a",
+    "url": "/guides-example/static/media/training.group.d3816021.jpg"
   }
 ]);
