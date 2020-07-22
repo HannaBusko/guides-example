@@ -8,8 +8,14 @@ h4 {
   margin-bottom: 20px;
 }
 
-h1{
+h1 {
   @include font($size: 6.5rem, $family: $fontMonserrat, $weight: 900);
+  @include for-phone {
+    @include font($size: 5rem, $family: $fontMonserrat, $weight: 900);
+  }
+  @include for-small-phone {
+    @include font($size: 4.5rem, $family: $fontMonserrat, $weight: 900);
+  }
 }
 h2 {
   @include font($size: 3.3rem, $family: $fontComfortaa, $weight: 700);
@@ -51,4 +57,11 @@ h4 {
   transition-property: opacity, transform;
   transition-timing-function: ease-in;
   transition-duration: 200ms;
+}
+
+.image-link {
+  transition: transform 0.7s;
+  &:hover {
+    transform: scale(0.9);
+  }
 }

@@ -447,6 +447,22 @@ h1 {
   font-weight: 900;
   font-style: normal;
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 5rem;
+    font-family: "Montserrat Alternates", "Verdana", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+}
+@media (max-width: 340px) {
+  h1 {
+    font-size: 4.5rem;
+    font-family: "Montserrat Alternates", "Verdana", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+}
 
 h2 {
   font-size: 3.3rem;
@@ -507,6 +523,13 @@ h4 {
   transition-property: opacity, transform;
   transition-timing-function: ease-in;
   transition-duration: 200ms;
+}
+
+.image-link {
+  transition: transform 0.7s;
+}
+.image-link:hover {
+  transform: scale(0.9);
 }
 
 .header-wrapper {
@@ -910,51 +933,60 @@ h4 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.block-wrapper {
-  padding: 2.5vw 0;
+.content-wrapper-board {
+  max-width: 90%;
   margin: 0 auto;
-  text-align: justify;
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .block-wrapper {
-    max-width: 97%;
-  }
-}
-@media (min-width: 992px) {
-  .block-wrapper {
-    max-width: 85%;
-  }
-}
-@media (min-width: 1225px) {
-  .block-wrapper {
-    max-width: 70%;
-  }
 }
 
-.block-grid {
-  margin: 0 auto;
-  padding-top: 2%;
-  display: grid;
-  text-align: center;
+.board-card h4 {
+  font-size: 1.6rem;
+  font-family: "Comfortaa", "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 5px;
 }
-.block-grid div {
-  justify-self: center;
-  line-height: 1.5;
+.board-card p {
   font-size: 1.4rem;
   font-family: "Roboto", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.block-grid h4 {
-  padding-top: 5px;
+.board-card .board-extra p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.board-card .meta {
+  text-align: center;
 }
 
-.about-grid {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.ui.card.board-single {
+  width: 65% !important;
+}
+@media (min-width: 1225px) {
+  .ui.card.board-single {
+    width: 40% !important;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .ui.card.board-single {
+    width: 50% !important;
+  }
 }
 @media (max-width: 767px) {
-  .about-grid {
-    grid-template-columns: 1fr 1fr;
+  .ui.card.board-single {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .boardTab .grid {
+    flex-direction: column-reverse;
+  }
+  .boardTab .grid > [class*="five wide"].column, .boardTab .grid > [class*="eleven wide"].column {
+    width: 100% !important;
   }
 }
 
@@ -1056,46 +1088,25 @@ h4 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.295);
 }
+@media (max-width: 767px) {
+  .content-main-image h1 {
+    margin: 0 auto;
+  }
+}
 
-.content-wrapper {
-  padding: 20px;
-  padding-right: 0px;
+.content-wrapper-divided {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  line-height: 2;
-  font-size: 1.6rem;
-  font-family: "Roboto", "Verdana", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 @media (max-width: 767px) {
-  .content-wrapper {
+  .content-wrapper-divided {
     display: inline;
   }
 }
-@media (max-width: 767px) {
-  .content-wrapper {
-    font-size: 1.4rem;
-    font-family: "Roboto", "Verdana", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-.content-wrapper img {
+.content-wrapper-divided img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-.content-wrapper .content-text {
-  padding: 20px;
-  text-align: justify;
-}
-.content-wrapper .content-text p {
-  text-indent: 2em;
-}
-.content-wrapper .content-text li {
-  list-style: inside "📌";
-  text-indent: 4em;
 }
 
 .about-wrapper .ui.segment {
@@ -1117,17 +1128,93 @@ h4 {
   }
 }
 
-.content-wrapper-board {
-  display: block;
-  max-width: 90%;
+.content-text {
+  padding: 0px 20px;
+  text-align: justify;
+}
+.content-text p {
+  text-indent: 2em;
+}
+.content-text li {
+  list-style: inside "📌";
+  text-indent: 4em;
+}
+
+.block-wrapper {
+  padding: 2.5vw 0;
   margin: 0 auto;
+  text-align: justify;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .block-wrapper {
+    max-width: 97%;
+  }
+}
+@media (min-width: 992px) {
+  .block-wrapper {
+    max-width: 85%;
+  }
+}
+@media (min-width: 1225px) {
+  .block-wrapper {
+    max-width: 70%;
+  }
+}
+
+.block-grid {
+  margin: 0 auto;
+  padding-top: 2%;
+  display: grid;
+  text-align: center;
+}
+.block-grid div {
+  justify-self: center;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.block-grid h4 {
+  padding-top: 5px;
+}
+
+.about-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 @media (max-width: 767px) {
-  .content-wrapper-board {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.content-wrapper {
+  padding: 20px;
+  padding-right: 0px;
+  line-height: 2;
+  font-size: 1.6rem;
+  font-family: "Roboto", "Verdana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media (max-width: 767px) {
+  .content-wrapper {
+    font-size: 1.4rem;
+    font-family: "Roboto", "Verdana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.content-wrapper-tab {
+  display: block;
+}
+@media (max-width: 767px) {
+  .content-wrapper-tab {
     padding: 20px 0px;
   }
 }
-.content-wrapper-board h3 {
+.content-wrapper-tab h3 {
   text-align: right;
   overflow-wrap: break-word;
   font-size: 2.4rem;
@@ -1136,7 +1223,7 @@ h4 {
   font-style: normal;
 }
 @media (max-width: 991px) and (min-width: 768px) {
-  .content-wrapper-board h3 {
+  .content-wrapper-tab h3 {
     font-size: 1.9rem;
     font-family: "Comfortaa", "Verdana", sans-serif;
     font-weight: 700;
@@ -1144,7 +1231,7 @@ h4 {
   }
 }
 @media (max-width: 767px) {
-  .content-wrapper-board h3 {
+  .content-wrapper-tab h3 {
     font-size: 1.2rem;
     font-family: "Comfortaa", "Verdana", sans-serif;
     font-weight: 700;
@@ -1153,67 +1240,79 @@ h4 {
   }
 }
 @media (max-width: 340px) {
-  .content-wrapper-board h3 {
+  .content-wrapper-tab h3 {
     font-size: 1rem;
     font-family: "Comfortaa", "Verdana", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
 }
-.content-wrapper-board .ui.tab.active {
+.content-wrapper-tab .ui.tab.active {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.board-card h4 {
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh * 0.5);
   font-size: 1.6rem;
   font-family: "Comfortaa", "Verdana", sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin-bottom: 5px;
 }
-.board-card p {
-  font-size: 1.4rem;
+.contact-wrapper > div {
+  flex-basis: 50%;
+}
+@media (max-width: 767px) {
+  .contact-wrapper > div {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-wrapper {
+    max-width: 90%;
+    flex-direction: column-reverse;
+  }
+}
+
+.adress-wrapper {
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.adress-wrapper span {
+  padding: 5px;
+}
+
+.trainingTab {
+  margin: 20px 0;
+}
+.trainingTab h4 {
+  text-align: center;
+  padding: 10px 0px;
+}
+.trainingTab p {
+  line-height: 2;
+  font-size: 1.5rem;
   font-family: "Roboto", "Verdana", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.board-card .board-extra p {
-  text-align: center;
-  font-size: 1.4rem;
-  font-family: "Roboto", "Verdana", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.board-card .meta {
-  text-align: center;
-}
-
-.ui.card.board-single {
-  width: 65% !important;
-}
-@media (min-width: 1225px) {
-  .ui.card.board-single {
-    width: 40% !important;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .ui.card.board-single {
-    width: 50% !important;
-  }
-}
 @media (max-width: 767px) {
-  .ui.card.board-single {
-    width: 90% !important;
+  .trainingTab p {
+    font-size: 1.2rem;
+    font-family: "Roboto", "Verdana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 }
 
-@media (max-width: 767px) {
-  .boardTab .grid {
-    flex-direction: column-reverse;
-  }
-  .boardTab .grid > [class*="five wide"].column, .boardTab .grid > [class*="eleven wide"].column {
-    width: 100% !important;
-  }
+.content-wrapper-trainings {
+  padding-left: 0;
+  margin: 0 5%;
+}
+.content-wrapper-trainings .content-text {
+  padding: 0;
 }
 
 .footer-wrapper {
@@ -1302,7 +1401,6 @@ h4 {
 }
 .footer-wrapper .footer-menu .ui.horizontal.list {
   display: flex !important;
-  flex-wrap: wrap;
 }
 .footer-wrapper .footer-menu .ui.horizontal.list .list > .item {
   padding-left: 0px !important;

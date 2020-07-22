@@ -195,7 +195,7 @@ const BoardBlock = () => {
           <h1>{t('menu_about')}</h1>
         </div>
       </div>
-      <div className="content-wrapper content-wrapper-board">
+      <div className="content-wrapper content-wrapper-tab content-wrapper-board">
         <h2>{t('menu_board')}</h2>
 
         <Tab

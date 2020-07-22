@@ -16,7 +16,8 @@ const FooterBlock = () => {
                             <List.List>
                                 <List.Item as={Link} to='/history'> {t('menu_history')}</List.Item>
                                 <List.Item as={Link} to='/rules'>{t('menu_rules')} </List.Item>
-                                <List.Item as={Link} to='/team'>{t('menu_team')}</List.Item>
+                                <List.Item as={Link} to='/board'>{t('menu_board')}</List.Item>
+                                <List.Item as={Link} to='/join'>{t('menu_how_join')}</List.Item>
                             </List.List>
                         </List.Item> 
                         

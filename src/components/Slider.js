@@ -8,10 +8,11 @@ class SimpleSlider extends Component {
     const { images } = this.props;
 
     const settings = {
+      fade: true,
       dots: true,
       infinite: true,
       onLazyLoad: true,
-      speed: 500,
+      speed: 700,
       slidesToShow: 1,
       slidesToScroll: 1,
       initialSlide: 4,

@@ -14,7 +14,7 @@ class AboutBlock extends Component {
                         }} >
                         <div> {title}</div>
                     </div>
-                    <div className="content-wrapper about-wrapper">
+                    <div className="content-wrapper content-wrapper-divided about-wrapper">
                         <Segment>
                             <img src={image_small.src} alt={image_small.alt} />
                         </Segment>
