@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/guides-example/static/css/main.18deed36.chunk.css",
-    "main.js": "/guides-example/static/js/main.d66dee8f.chunk.js",
-    "main.js.map": "/guides-example/static/js/main.d66dee8f.chunk.js.map",
-    "runtime-main.js": "/guides-example/static/js/runtime-main.f82dc076.js",
-    "runtime-main.js.map": "/guides-example/static/js/runtime-main.f82dc076.js.map",
-    "static/js/2.744b9e4c.chunk.js": "/guides-example/static/js/2.744b9e4c.chunk.js",
-    "static/js/2.744b9e4c.chunk.js.map": "/guides-example/static/js/2.744b9e4c.chunk.js.map",
+    "main.css": "/guides-example/static/css/main.21897ded.chunk.css",
+    "main.js": "/guides-example/static/js/main.bc135ede.chunk.js",
+    "main.js.map": "/guides-example/static/js/main.bc135ede.chunk.js.map",
+    "runtime-main.js": "/guides-example/static/js/runtime-main.b6f0576a.js",
+    "runtime-main.js.map": "/guides-example/static/js/runtime-main.b6f0576a.js.map",
+    "static/js/2.af6abfd5.chunk.js": "/guides-example/static/js/2.af6abfd5.chunk.js",
+    "static/js/2.af6abfd5.chunk.js.map": "/guides-example/static/js/2.af6abfd5.chunk.js.map",
+    "static/js/3.6f928089.chunk.js": "/guides-example/static/js/3.6f928089.chunk.js",
+    "static/js/3.6f928089.chunk.js.map": "/guides-example/static/js/3.6f928089.chunk.js.map",
+    "static/js/4.e848ccf0.chunk.js": "/guides-example/static/js/4.e848ccf0.chunk.js",
+    "static/js/4.e848ccf0.chunk.js.map": "/guides-example/static/js/4.e848ccf0.chunk.js.map",
     "index.html": "/guides-example/index.html",
-    "precache-manifest.38d2c4c674d22b4d8804a3642aa7aead.js": "/guides-example/precache-manifest.38d2c4c674d22b4d8804a3642aa7aead.js",
+    "precache-manifest.6499e3ffd657077c6024dae16666326f.js": "/guides-example/precache-manifest.6499e3ffd657077c6024dae16666326f.js",
     "service-worker.js": "/guides-example/service-worker.js",
-    "static/css/main.18deed36.chunk.css.map": "/guides-example/static/css/main.18deed36.chunk.css.map",
-    "static/js/2.744b9e4c.chunk.js.LICENSE.txt": "/guides-example/static/js/2.744b9e4c.chunk.js.LICENSE.txt",
+    "static/css/main.21897ded.chunk.css.map": "/guides-example/static/css/main.21897ded.chunk.css.map",
+    "static/js/2.af6abfd5.chunk.js.LICENSE.txt": "/guides-example/static/js/2.af6abfd5.chunk.js.LICENSE.txt",
+    "static/js/4.e848ccf0.chunk.js.LICENSE.txt": "/guides-example/static/js/4.e848ccf0.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/guides-example/static/media/2.27a4e7d3.jpg",
     "static/media/3.jpg": "/guides-example/static/media/3.254dbe46.jpg",
     "static/media/4.jpg": "/guides-example/static/media/4.1b9ac203.jpg",
@@ -28,6 +33,7 @@
     "static/media/comission1.jpg": "/guides-example/static/media/comission1.9bf51584.jpg",
     "static/media/comission2.jpg": "/guides-example/static/media/comission2.23bf8da9.jpg",
     "static/media/comission3.jpg": "/guides-example/static/media/comission3.0c78b198.jpg",
+    "static/media/contact.group.jpg": "/guides-example/static/media/contact.group.72ece5fe.jpg",
     "static/media/crue1.jpg": "/guides-example/static/media/crue1.bd424f50.jpg",
     "static/media/crue2.jpg": "/guides-example/static/media/crue2.7e43e083.jpg",
     "static/media/crue3.jpg": "/guides-example/static/media/crue3.fc66adf6.jpg",
@@ -42,6 +48,9 @@
     "static/media/join.jpg": "/guides-example/static/media/join.3856004e.jpg",
     "static/media/language2.png": "/guides-example/static/media/language2.10c4a492.png",
     "static/media/logo.svg": "/guides-example/static/media/logo.c5e6f76d.svg",
+    "static/media/logoTraining1.png": "/guides-example/static/media/logoTraining1.9cc1ac41.png",
+    "static/media/logoTraining2.png": "/guides-example/static/media/logoTraining2.cc0ba53f.png",
+    "static/media/logoTraining3.jpg": "/guides-example/static/media/logoTraining3.a41656b4.jpg",
     "static/media/nature.jpg": "/guides-example/static/media/nature.ac80221e.jpg",
     "static/media/nature.png": "/guides-example/static/media/nature.ee8c330c.png",
     "static/media/note.pdf": "/guides-example/static/media/note.daaa1081.pdf",
@@ -60,12 +69,12 @@
     "static/media/secretary.jpg": "/guides-example/static/media/secretary.563ad900.jpg",
     "static/media/statement.doc": "/guides-example/static/media/statement.7f37f506.doc",
     "static/media/statement.pdf": "/guides-example/static/media/statement.a919abb6.pdf",
-    "static/media/training.group.jpg": "/guides-example/static/media/training.group.d3816021.jpg"
+    "static/media/training.group.jpg": "/guides-example/static/media/training.group.81048502.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f82dc076.js",
-    "static/js/2.744b9e4c.chunk.js",
-    "static/css/main.18deed36.chunk.css",
-    "static/js/main.d66dee8f.chunk.js"
+    "static/js/runtime-main.b6f0576a.js",
+    "static/js/4.e848ccf0.chunk.js",
+    "static/css/main.21897ded.chunk.css",
+    "static/js/main.bc135ede.chunk.js"
   ]
 }
