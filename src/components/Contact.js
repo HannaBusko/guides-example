@@ -34,7 +34,7 @@ class ContactForm extends Component {
     handleSubmit = event => {
         event.preventDefault();
 
-        const templateId = 'template_bu0v392a';
+        const templateId = 'template_cehjwdNW';
         const service_id = "default_service";
         var template_params = {
             "from_name": this.state.name,

@@ -74,3 +74,14 @@
         background-color: rgba(0, 0, 0, 0.05);
     }
 }
+
+.content-wrapper-guides{
+
+    padding: 20px 0px;
+    line-height: 2;
+    @include font($size: 1.6rem, $family: $fontRoboto, $weight: 400);
+    @include for-phone {
+        @include font($size: 1.4rem, $family: $fontRoboto, $weight: 400);
+    }
+
+}

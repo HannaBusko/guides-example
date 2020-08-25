@@ -9,9 +9,12 @@ import FooterBlock from './Footer';
 import HomePage from '../pages/home';
 import { HistoryBlock, RulesBlock, JoinBlock } from '../pages/about';
 import BoardBlock from './Board';
+import NewsBlock from './News';
 import CertificationBlock from './Certification';
 import TrainingCenters from './TrainingCenters';
 import ContactBlock from './Contact';
+
+import GuidesList from './GuidesList';
 
 import Preloader from "./Preloader";
 import ScrollToTopBtn from "./ScrollToTop";
@@ -31,9 +34,9 @@ const RoutesWrapper = ({ location }) => (
       <Route path='/certification' render={() => <CertificationBlock />} />
       <Route path='/contact' render={() => <ContactBlock />} />
       
-      <Route path='/news' render={() => <Preloader />} />
+      <Route path='/news' render={() => <NewsBlock />} />
       <Route path='/guide-main' render={() => <Preloader />} />
-      <Route path='/guide-search' render={() => <Preloader />} />
+      <Route path='/guide-search' render={() => <GuidesList />} />
       <Route path='/seminars' render={() => <Preloader />} />
       <Redirect to='/' />
     </Switch>

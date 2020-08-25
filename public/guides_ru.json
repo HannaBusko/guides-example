@@ -1,0 +1,225 @@
+[
+  {
+    "id": 0,
+    "name": "Ветик Наталья / Vetik Natalia",
+    "email": "nvetik@gmail.com",
+    "phone": "+375-29-7541468",
+    "lang": "Японский / Japanese; Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 1,
+    "name": "Волчанина Наталья / Volchanina Natalia",
+    "email": "n.volchanina@mail.ru",
+    "phone": "+375-29-6708106",
+    "lang": "Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 2,
+    "name": "Гордюнина Ольга / Gordunina Olga",
+    "email": "o.gordunina@gmail.com",
+    "phone": "+375-29-8505636",
+    "lang": "Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 3,
+    "name": "Горохов Владимир / Gorokhov Vladimir",
+    "email": "vgorokhov@yahoo.com",
+    "phone": "+375-29-3961626",
+    "lang": "Персидский / Persian; Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 4,
+    "name": "Емельянов Сергей / Emelyanov Sergey",
+    "email": "lutavit@gmail.com",
+    "phone": "+375-29-7797953",
+    "lang": "Польский / Polish",
+    "city": "Минск"
+  },
+  {
+    "id": 5,
+    "name": "Жук Юлия / Zhuk Julia",
+    "email": "zhukyuliya2014@gmail.com",
+    "phone": "+375-29-8638280",
+    "lang": "Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 6,
+    "name": "Матусевич Екатерина / Matusevich Ekaterina",
+    "email": "katarina.kovalchuk@gmail.com",
+    "phone": "+375-29-8763730",
+    "lang": "Турецкий / Turkish; Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 7,
+    "name": "Мащенко Светлана / Maschenko Svetlana",
+    "email": "svetamaschenko@mail.ru",
+    "phone": "+375-29-7035736",
+    "lang": "Немецкий / German",
+    "city": "Минск"
+  },
+  {
+    "id": 8,
+    "name": "Миколуцкая Юлианна / Mikolutskaya Juliana",
+    "email": "Julianamikolutskaya@gmail.com",
+    "phone": "+375-29-8018635",
+    "lang": "Английский / English",
+    "img": "photo/8.jpg",
+    "city": "Минск"
+  },
+  {
+    "id": 9,
+    "name": "Соколова Татьяна / Sokolova Tatsiana",
+    "email": "sokolova.mavie@gmail.com",
+    "phone": "+375-29-3598392",
+    "lang": "Турецкий / Turkish; Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 10,
+    "name": "Тамазян Виктория / Tamazyan Victoria",
+    "email": "mice.trakt@gmail.com",
+    "phone": "+375-29-8365991",
+    "lang": "Английский / English; Арабский / Arabic",
+    "city": "Минск"
+  },
+  {
+    "id": 11,
+    "name": "Хает Евгений / Haet Eugeny",
+    "email": "hebrewguidebelarus@yandex.by",
+    "phone": "+375-29-1791969",
+    "lang": "Иврит / Hebrew",
+    "city": "Минск"
+  },
+  {
+    "id": 12,
+    "name": "Янушкевич Камилла / Yanushkevich Camilla",
+    "email": "camel.email@gmail.com",
+    "phone": "+375-29-3857128",
+    "lang": "Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 13,
+    "name": "Дурышева Инна / Durysheva Inna",
+    "email": "inadurysheva@gmail.com",
+    "phone": "+375-29-3324610",
+    "lang": "Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 14,
+    "name": "Монич Никита / Monich Nikita",
+    "email": "n.monich@gmail.com",
+    "phone": "+375-29-3275025",
+    "lang": "Испанский / Spanish",
+    "city": "Минск"
+  },
+  {
+    "id": 15,
+    "name": "Морозов Дмитрий / Marozau Dzmitry",
+    "email": "dzmitry_marozau@yahoo.com ",
+    "phone": "+375-29-1534020",
+    "lang": "Английский / English",
+    "img": "photo/15.jpg",
+    "city": "Минск"
+  },
+  {
+    "id": 17,
+    "name": "Волосатова Юлия / Volosatova Julia",
+    "email": "volosatovayuliya@mail.ru",
+    "phone": "+375-29-7904712",
+    "lang": "Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 18,
+    "name": "Анисько Александра / Anisko Alexandra",
+    "email": "malyshka.s@inbox.ru",
+    "phone": "+375-29-1773905",
+    "lang": "Турецкий / Turkish; Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 19,
+    "name": "Макаревич Виталий / Makarevich Vitaly",
+    "email": "witalij@tut.by",
+    "phone": "+375-29-6076674",
+    "lang": "Польский / Polish",
+    "city": "Минск"
+  },
+  {
+    "id": 20,
+    "name": "Семенова Людмила / Semenova Ludmila",
+    "email": "lucy.semenova@gmail.com",
+    "phone": "+375-29-7536858",
+    "lang": "Английский / English",
+    "img": "photo/20.jpg",
+    "city": "Минск"
+  },
+  {
+    "id": 21,
+    "name": "Чугунова Снежана / Chugunova Snezhana",
+    "email": "snezhana1908@tut.by",
+    "phone": "+375-29-3131908",
+    "lang": "Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 22,
+    "name": "Корогодова Лариса / Korogodova Larisa",
+    "email": "lkorogodova@gmail.com",
+    "phone": "+375-29-5775098",
+    "lang": "Английский / English",
+    "img": "photo/22.jpg",
+    "city": "Минск"
+  },
+  {
+    "id": 23,
+    "name": "Авгутис Инна / Awgutis Inna",
+    "email": "GuideBelarus@yandex.by",
+    "phone": "+375-29-8907909",
+    "lang": "Польский / Polish",
+    "img": "photo/23.jpg",
+    "city": "Витебск"
+  },
+  {
+    "id": 24,
+    "name": "Любая Алена / Liubaya Alena",
+    "email": "liubaja_aliona@mail.ru",
+    "phone": "+375-44-7037523",
+    "lang": "Польский / Polish",
+    "img": "photo/24.jpg",
+    "city": "Минск"
+  },
+  {
+    "id": 25,
+    "name": "Абрамчук Роман / Abramchuk Roman",
+    "email": "romannn@tut.by",
+    "phone": "+375-29-7040018",
+    "lang": "Французский / French; Английский / English",
+    "city": "Минск"
+  },
+  {
+    "id": 26,
+    "name": "Нелюбов Александр / Nelubov Alexandr",
+    "email": "alexotas@tut.by",
+    "phone": "+375-29-3088045",
+    "lang": "Английский / English",
+    "img": "photo/26.jpg",
+    "city": "Минск"
+  },
+  {
+    "id": 27,
+    "name": "Капариха Дарья / Kaparikha Darya",
+    "email": "dorado@tut.by",
+    "phone": "+375-29-3748466",
+    "lang": "Французский / French",
+    "city": "Минск"
+  }
+]
