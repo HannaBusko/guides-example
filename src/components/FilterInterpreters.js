@@ -68,7 +68,7 @@ const FilterBlock = (filterProps) => {
   return (
     <div className="filter-container">
       <Dropdown placeholder='Языки' clearable fluid multiple selection options={type==='guides' ? languagesSmall :languagesLarge} onChange={(e, { value }) => setFilterLang({ value })} />
-      <Dropdown placeholder='Город' clearable fluid multiple selection options={type==='guides' ? citiesSmall : citiesLarge} onChange={(e, { value }) => setFilterCity({ value })} />
+      <Dropdown placeholder='Город' clearable fluid multiple selection options={type==='guides' ? citiesLarge : citiesSmall} onChange={(e, { value }) => setFilterCity({ value })} />
       <Input
         icon="search"
         onChange={e => setSearchQuery(e.target.value)}
