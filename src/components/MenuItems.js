@@ -41,8 +41,11 @@ function MenuItems() {
                     <Dropdown.Item text={t('menu_guide-main')} as={Link} to='/guide-main' value="guide-main"
                         active={activeItem === '/guide-main' || activeItem === 'guide-main'}
                         onClick={e => setActiveItem(e.target.value)} />
-                    <Dropdown.Item text={t('menu_guide-search')} as={Link} to='/guide-search' value="guide-search"
-                        active={activeItem === '/guide-search' || activeItem === 'guide-search'}
+                    <Dropdown.Item text={t('menu_guide-search')} as={Link} to='/guide1-search' value="guide1-search"
+                        active={activeItem === '/guide1-search' || activeItem === 'guide1-search'}
+                        onClick={e => setActiveItem(e.target.value)} />
+                    <Dropdown.Item text={t('menu_guide2-search')} as={Link} to='/guide2-search' value="guide2-search"
+                        active={activeItem === '/guide2-search' || activeItem === 'guide2-search'}
                         onClick={e => setActiveItem(e.target.value)} />
                 </Dropdown.Menu>
             </Dropdown>

@@ -10,6 +10,7 @@ import HomePage from '../pages/home';
 import { HistoryBlock, RulesBlock, JoinBlock } from '../pages/about';
 import BoardBlock from './Board';
 import NewsBlock from './News';
+import GuidesMainBlock from './GuidesMain';
 import CertificationBlock from './Certification';
 import TrainingCenters from './TrainingCenters';
 import ContactBlock from './Contact';
@@ -35,8 +36,9 @@ const RoutesWrapper = ({ location }) => (
       <Route path='/contact' render={() => <ContactBlock />} />
       
       <Route path='/news' render={() => <NewsBlock />} />
-      <Route path='/guide-main' render={() => <Preloader />} />
-      <Route path='/guide-search' render={() => <GuidesList />} />
+      <Route path='/guide-main' render={() => <GuidesMainBlock />} />
+      <Route path='/guide1-search' render={() => <GuidesList fileName ='/interpreters.json' title ='menu_guide-search' type='interpreters'/>} />
+      <Route path='/guide2-search' render={() => <GuidesList fileName ='/guides.json' title ='menu_guide2-search' type='guides'/>} />
       <Route path='/seminars' render={() => <Preloader />} />
       <Redirect to='/' />
     </Switch>
