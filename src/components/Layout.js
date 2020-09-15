@@ -37,8 +37,8 @@ const RoutesWrapper = ({ location }) => (
       
       <Route path='/news' render={() => <NewsBlock />} />
       <Route path='/guide-main' render={() => <GuidesMainBlock />} />
-      <Route path='/guide1-search' render={() => <GuidesList fileName ='/interpreters.json' title ='menu_guide-search' type='interpreters'/>} />
-      <Route path='/guide2-search' render={() => <GuidesList fileName ='/guides.json' title ='menu_guide2-search' type='guides'/>} />
+      <Route path='/guide1-search' render={() => <GuidesList fileName ='./interpreters.json' title ='menu_guide-search' type='interpreters'/>} />
+      <Route path='/guide2-search' render={() => <GuidesList fileName ='./guides.json' title ='menu_guide2-search' type='guides'/>} />
       <Route path='/seminars' render={() => <Preloader />} />
       <Redirect to='/' />
     </Switch>
